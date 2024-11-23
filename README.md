@@ -18,7 +18,7 @@ The Profile Management System is an efficient and user-friendly application desi
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/enrituraj/profile-management.git`
+1. Clone the repository: `git clone https://github.com/ajay1kumar1/profile-management.git`
 2. Navigate to the project directory: `cd profile-management`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
