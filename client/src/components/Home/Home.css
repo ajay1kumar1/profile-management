@@ -1,0 +1,33 @@
+.container {
+    box-shadow: 0 0 #000 0, 0 0 #000 0, 0 1px 2px 0 rgba(0, 0, 0, .05);
+    background-color: #fff f;
+}
+.header-content {
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    padding: 2rem;
+    min-height: 32rem;
+    gap: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-content .text-content {
+    flex: 1;
+}
+.header-content .text-content h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    color: #900 8;
+}
+.header-content .text-content p {
+    font-size: 1.2rem;
+    max-width: 30rem;
+    color: #c8c8c8;
+    margin-bottom: 1.5rem;
+}
+.header-content .img-content {
+    flex: 1;
+}

@@ -9,8 +9,8 @@ const useSignup = () => {
     const signup = async (name,email,username,password)=>{
         setIsLoading(true)
         setError(null);
-
-        const response = await fetch('/api/user/signup',{
+        const BE = process.env.BE || 'http://localhost:3000';
+        const response = await fetch(BE+'/api/user/signup',{
             method:'POST',
             headers:{"Content-Type":"application/json"},
             body:JSON.stringify({name,email,username,password})

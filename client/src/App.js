@@ -13,6 +13,12 @@ const App = () => {
               path='/' 
               element={user ? <HomePage/> : <Navigate to="/login"/>}/>
             <Route 
+                path='/admin' 
+                element={user ? <HomePage/> : <Navigate to="/"/>}/>
+            <Route 
+              path='/stock' 
+              element={user ? <HomePage/> : <Navigate to="/"/>}/>
+            <Route 
               path='/login' 
               element={!user ? <Login/> : <Navigate to="/"/>}/>
             <Route 

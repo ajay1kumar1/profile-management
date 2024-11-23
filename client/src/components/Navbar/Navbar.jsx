@@ -1,9 +1,9 @@
 import React,{useState} from 'react'
-import avatar from './../../images/avatar.jpg'
+import avatar from '../../images/avatar.jpg'
 import { NavLink } from 'react-router-dom'
-import './navbar.scss'
-import {useLogout}  from './../../hooks/useLogout'
-import useAuthContext from './../../hooks/useAuthContext'
+import './navbar.css'
+import {useLogout}  from '../../hooks/useLogout'
+import useAuthContext from '../../hooks/useAuthContext'
 
 const Navbar = () => {
 const {user} = useAuthContext()
@@ -23,6 +23,12 @@ const {user} = useAuthContext()
               <ul className="menu">
                 <li>
                   <NavLink to="/" className='menu-item'>Home</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/admin" className='menu-item'>Admin</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/stock" className='menu-item'>Stock</NavLink>
                 </li>
               </ul>
             </div>

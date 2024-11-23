@@ -1,8 +1,8 @@
 import React,{useState} from 'react'
-import {useLogin} from './../../hooks/useLogin'
+import {useLogin} from '../../hooks/useLogin'
 import { Link, useNavigate  } from 'react-router-dom'
-import Navbar from './../Navbar/Navbar'
-import './Form.scss'
+import Navbar from '../Navbar/Navbar'
+import './Form.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
