@@ -27,12 +27,12 @@ The Profile Management System is an efficient and user-friendly application desi
 
 If you have any questions, suggestions, or feedback, please feel free to reach out to us at:
 
-- Email: [rn26rituraj@gmail.com](mailto:rn26rituraj@gmail.com)
-- Website: [https://enrituraj.netlify.app/](https://enrituraj.netlify.app/)
+- Email: [ajaylala@gmail.com](mailto:ajay1kumar1@gmail.com)
+- Website: [https://ajay1kumar1.netlify.app/](https://ajay1kumar1.netlify.app/)
 
 You can also connect with us on social media:
 
-- Twitter: [@rn26rituraj](https://twitter.com/rn26rituraj)
-- LinkedIn: [enrituraj](https://www.linkedin.com/in/enrituraj/)
+- Twitter: [@ajay1kumar1](https://twitter.com/ajay1kumar1)
+- LinkedIn: [ajay1kumar1](https://www.linkedin.com/in/ajay1kumar1/)
 
 We value your input and look forward to hearing from you.
